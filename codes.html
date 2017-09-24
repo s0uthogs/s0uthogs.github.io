@@ -36,6 +36,33 @@ background-repeat: no-repeat;
 }
         </style>
 <body>
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '1579208415477037',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.10'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10&appId=1579208415477037";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
      <script>
   function play(){
         alert("É melhor que você esteja de fone.");
@@ -60,6 +87,8 @@ background-repeat: no-repeat;
 <a href="https://www.csgolive.com"><img src="https://github.com/s0uthogs/s0uthogs.github.io/blob/master/csgolive.png?raw=true" hspace="7"/></a>
 <a href="https://csgoroll.com"><img src="https://github.com/s0uthogs/s0uthogs.github.io/blob/master/csgoroll.png?raw=true" hspace="7"/></a>
 </center>
+    <div class="fb-comments" data-href="https://s0uthogs.github.io/codes.html" data-width="500" data-numposts="5"></div>
+
     <h1 onclick=play()>OOOHHH UÃAAAAHHH ÕOONHHH HÃAAAHHH</h1>
     <h3>caiu no gemidão do CSGO Gambling</h3>
 </body>
